@@ -1,0 +1,40 @@
+.containerHomepage {
+  display: grid;
+  grid-template-columns: auto auto; /* Two columns: one for textContainer and one for logoContainer */
+  align-items: center; /* Align items vertically */
+  gap: 20px; /* Adjust the gap between grid items */
+}
+
+.logoContainer img {
+  width: 80%;
+  margin-right: auto;
+  height: 50%;
+  height: auto;
+}
+
+.textContainer {
+  display: flex; /* Display textContainer as a flex container */
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin-left: auto;
+  font-size: 2.5rem;
+  text-align: left;
+  font-weight: 700;
+}
+
+.cta {
+  text-decoration: none;
+  margin-top: 1rem;
+  background-color: var(--first-color);
+  color: var(--title-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 0.75rem;
+  text-align: center;
+  font-size: 1rem;
+  width: 30%;
+}

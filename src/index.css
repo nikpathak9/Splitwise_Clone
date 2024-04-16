@@ -1,0 +1,28 @@
+:root {
+  --header-height: 3.5rem;
+  --first-color: #1cc29f;
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: #1cc29f;
+  --body-color: hsl(0, 100%, 99%);
+  --body-font: "Montserrat";
+  --text-transform: uppercase;
+  --second-font: "Montserrat";
+  --h2-font-size: 1.25rem;
+  --small-font-size: 0.813rem;
+  --font-semi-bold: 600;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  background-image: url(https://assets.splitwise.com/assets/core/facets.png);
+}

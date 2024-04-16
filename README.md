@@ -1,3 +1,6 @@
+# Splitwise Clone
+<img width="1469" alt="Screenshot 2024-04-16 at 5 20 48 PM" src="https://github.com/nikpathak9/Splitwise_Clone/assets/66865471/8ae8c597-6680-4d32-8a44-bee128cdd839">
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
